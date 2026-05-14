@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor and swap files
+*.swp
+*.swo
+*.swn
+*~
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+.tags
+.vscode/
+.idea/
+
+# Local Neovim/Lazy runtime state
+.lazy/
+.repro/
+spell/*.add.spl
+
+# Logs and local scratch files
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Keep lazy-lock.json tracked if you add it, so plugin versions stay reproducible.
